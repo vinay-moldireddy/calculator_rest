@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class CalculatorController {
 	@GetMapping("/add/{a}/{b}")
 	public int add(@PathVariable int a, @PathVariable int b){
-		return a + b;
+		return a + b ;
 	}
 	@GetMapping("/mul/{a}/{b}")
 	public int mul(@PathVariable int a, @PathVariable int b){
